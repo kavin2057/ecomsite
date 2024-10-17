@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="ecom.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>E-Com</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+
+    <div class="offer-bar">
+      <div class="offermain">
+        <p><span><b>></b></span>Sign Up and <b>GET 20% OFF</b> for your first Order </p>
+      </div>
+    </div>
+  
+  
+    <nav class="navbar">
+      <h1><span style="color: rgb(233, 41, 41);"> > </span> Trends</h1>
+      <div class="navbarlinks">
+        <p class="navbarlinks"><a href="./index.html">Home</a></p>
+        <p class="navbarlinks"><a href="./collection.html">Collection</a></p>
+        <p class="navbarlinks"><a href="#foot">Contact us</a></p>
+      </div>
+      <div class="togglebar">
+        <i class="fa-solid fa-bars" onclick="openNav()"> </i>
+      </div>
+    </nav>
+  
+  
+  
+    <nav class="sidenav">
+      <div class="xbar">
+        <i id="side-navbar-close" class="fa-solid fa-xmark" onclick="closeNav() "></i>
+      </div>
+      <div class="sidenavlink">
+        <p class="sidenavlink"><a href="./index.html">Home</a></p>
+        <p class="sidenavlink"><a href="./collection.html">collection</a></p>
+        <p class="sidenavlink"><a href="#foot">contact</a></p>
+      </div>
+    </nav>
+    <div class="container">
+
+        <div class="divide-section">
+            <div class="filter-section">
+
+                <h3 class="filter-section-occasion">Occasion</h3>
+                <div>
+                    <input type="checkbox" name="tags" value="summer"> Summer <br>
+                    <input type="checkbox" name="tags" value="party"> Party <br>
+                    <input type="checkbox" name="tags" value="beach"> Beach
+
+                </div>
+
+                <h3 class="filter-section-colors"> Colors </h3>
+                <div>
+                    <input type="checkbox" name="tags" value="red"> Red <br>
+                    <input type="checkbox" name="tags" value="blue"> Blue <br>
+                    <input type="checkbox" name="tags" value="white"> White <br>
+                    <input type="checkbox" name="tags" value="green"> Green
+                </div>
+
+                <h3 class="filter-section-arrivals"> Arrivals </h3>
+                <div>
+                    <input type="checkbox" name="tags" value="new"> New <br>
+                    <input type="checkbox" name="tags" value="old"> Old
+
+                </div>
+            </div>
+
+            <div class="product-section">
+                <form class="navbar-search">
+                    <input class="search" type="search" placeholder="search">
+                    <i id="class" class="fa-solid fa-magnifying-glass"></i>
+                </form>
+
+                <div class="products">
+
+                </div>
+            </div>
+        </div>
+
+
+
+
+        <div id="foot" class="footer">
+            <div class="footer-container">
+              <h2 class="headingText">Trends Shopping </h2>
+              <div class="brands">
+                <div class="brands-item">
+                  <img class="brands-icon" src="img/icons/facebook.png" alt="">
+                  <p>Facebook</p>
+                </div>
+        
+                <div class="brands-item">
+                  <img class="brands-icon" src="img/icons/instagram.png" alt="">
+                  <p>Instagram</p>
+                </div>
+        
+                <div class="brands-item">
+                  <img class="brands-icon" src="img/icons/twitter.png" alt="">
+                  <p>Twitter</p>
+                </div>
+                <div class="footer-box-1">
+                  <h4> SHOPPING MADE EASY AT TRENDS</h4>
+                  <p>If you would like to experience the best of online shopping for men, women and kids in India, you are at
+                    the right place.Our online store brings you
+                    the latest in designer products straight out of fashion houses. You can shop online at Myntra from the
+                    comfort of your home and get your favourites delivered right to your doorstep.</p>
+                </div>
+              </div>
+        
+              <div class="subtitle">     
+                <p>@ 2024 Trends.com</p>
+                <p>Contact: 9746873056 </p></div>
+            </div>
+        </div>
+
+
+
+        <!--Link Javascript File-->
+        <script type="module" src="collection.js"></script>
+</body>
+
+</html>
